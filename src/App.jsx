@@ -1,5 +1,11 @@
+import BouncyLoader from './animation/Bouncy/Bouncy';
+
 function App() {
-  return <></>;
+  return (
+    <div className="top-container">
+      <BouncyLoader />
+    </div>
+  );
 }
 
 export default App;
